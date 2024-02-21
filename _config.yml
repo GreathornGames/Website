@@ -1,0 +1,11 @@
+# Local testing can be done by using 'bundle exec jekyll serve'.
+# - Site settings {{ site.* }}
+
+title: Greathorn Games
+email: hello@greathorn.games
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: greathorngames
+github_username:  greathorngames
