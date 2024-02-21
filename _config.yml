@@ -1,4 +1,8 @@
 # Local testing can be done by using 'bundle exec jekyll serve'.
+
+# Make output go to docs folder for GitHub pages
+destination: docs/
+
 # - Site settings {{ site.* }}
 
 title: Greathorn Games
