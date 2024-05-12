@@ -1,0 +1,12 @@
+# Socials
+- platform: twitter
+  username: greathorngames
+  uri: https://x.com/greathorngames
+
+- platform: github
+  username: greathorngames
+  uri: https://github.com/greathorngames
+
+- platform: steam
+  username: greathorngames
+  uri: 
