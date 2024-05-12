@@ -99,7 +99,7 @@ video.bg-video {
     padding-right: 9rem;
   }
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
-    font-size: 5.5rem;
+    font-size: 6rem;
   }
   .masthead .masthead-content p {
     font-size: 1.3rem;
@@ -134,6 +134,8 @@ video.bg-video {
   }
 }
 
+
+
 .branding
 {
   position: fixed;
@@ -155,7 +157,10 @@ video.bg-video {
   text-align: left;
 }
 
-
+.masthead-content .mb-5
+{
+  opacity: 0.5;
+}
 
 @media (min-width: 992px) {
   .branding
@@ -166,6 +171,10 @@ video.bg-video {
   .branding img
   {
     max-width: 25%;
+  }
+  .masthead-content .mb-5
+  {
+    margin-bottom: 0px !important;
   }
 }
 
