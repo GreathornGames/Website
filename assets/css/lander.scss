@@ -162,6 +162,11 @@ video.bg-video {
   opacity: 0.5;
 }
 
+.masthead-content .mb-5 em
+{
+  font-weight: 700;
+}
+
 @media (min-width: 992px) {
   .branding
   {
@@ -208,4 +213,7 @@ video.bg-video {
   position: absolute;
   right: 2vw;
   bottom: 2vw;
+  z-index: 1;
+  color: #FFFFFF;
+  opacity: 0.5;
 }
