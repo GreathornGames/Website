@@ -1,8 +1,8 @@
 # Local testing can be done by using 'bundle exec jekyll serve'.
 # - Site settings {{ site.* }}
 
-#sass:
-    #style: compressed
+sass:
+    style: compressed
 title: Greathorn Games
 email: hello@greathorn.games
 

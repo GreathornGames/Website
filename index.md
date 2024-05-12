@@ -1,10 +1,14 @@
 ---
 layout: default
 title: Greathorn Games
-custom-css: /assets/css/lander-min.css
+custom-css: /assets/css/lander.css
 ---
 <video autoplay loop muted playsinline class="bg-video" poster="assets/videos/lander-background.jpg"><source src="/assets/videos/lander-background.mp4" type="video/mp4" /></video>
-<img class="lander-logo" src="assets/images/greathorn.png" alt="Greathorn Games" />
+<div class="branding">
+    <div class="branding-content">
+        <img src="assets/images/greathorn.png" alt="Greathorn Games" />
+    </div>
+</div>
 <div class="masthead">
     <div class="masthead-content text-white">
         <div class="container-fluid px-4 px-lg-0">
