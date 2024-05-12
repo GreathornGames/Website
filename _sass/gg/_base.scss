@@ -5,4 +5,9 @@ body {
 }
 
 
-h1 { color: $branding-blue; }
+h1 { 
+  color: $branding-blue; 
+  font-family: $branding-font;
+  font-weight: 900;
+  font-style: normal;
+}
