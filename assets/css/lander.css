@@ -10970,11 +10970,26 @@ video.bg-video {
 .lander-logo
 {
   position: absolute;
-  width: 12%;
+  width: 15%;
   z-index: 10;
-  top: 2vw;
-  left: 2vw;
+  top: 5vw;
+  left: 5vw;
 }
+@media (min-width: 992px) {
+  .lander-logo
+  {
+    top: 2vw;
+    left: 2vw;
+    width: 12%;
+  }
+}
+
+@media (max-width: 991px) {
+  .masthead .masthead-content {
+    padding-bottom: 0rem;
+  }
+}
+
 .lander-notice
 {
   position: absolute;
