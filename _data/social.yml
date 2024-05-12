@@ -1,4 +1,15 @@
 # Socials
+- platform: discord
+  uri: https://discord.gg/SFvbmKAxQZ
+
+- platform: youtube
+  username: greathorngames
+  uri: https://www.youtube.com/@greathorngames
+
+- platform: twitch
+  username: greathorngames
+  uri: https://www.twitch.tv/greathorngames
+
 - platform: twitter
   username: greathorngames
   uri: https://x.com/greathorngames
@@ -10,3 +21,4 @@
 - platform: steam
   username: greathorngames
   uri: 
+
