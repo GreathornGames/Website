@@ -11,9 +11,9 @@ custom-css: /assets/css/lander.css
 </div>
 <div class="masthead">
     <div class="masthead-content text-white">
-        <div class="container-fluid px-4 px-lg-0" id="main">
+        <div class="container-fluid px-4 px-lg-0" id="content">
             <h1 class="fst-italic lh-1 mb-4">Play Better Together</h1>
-            <p class="mb-5">We are crafting memorable <em role="presentation">coopetitive</em> gaming experiences for gamers.</p>
+            <p class="mb-5">We are crafting memorable <em role="heading">coopetitive</em> gaming experiences for gamers.</p>
         </div>
     </div>
 </div>
