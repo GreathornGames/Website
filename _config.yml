@@ -1,10 +1,12 @@
 # Local testing can be done by using 'bundle exec jekyll serve'.
 # - Site settings {{ site.* }}
 
+#sass:
+    #style: compressed
 title: Greathorn Games
 email: hello@greathorn.games
 
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://greathorn.games" # the base hostname & protocol for your site, e.g. http://example.com
 
 exclude:
