@@ -6,7 +6,7 @@ custom-css: /assets/css/investors.css
 <video autoplay loop muted playsinline class="bg-video" poster="assets/videos/lander-background.jpg"><source src="/assets/videos/lander-background.mp4" type="video/mp4"></video>
 <div class="branding" id="header">
     <div class="branding-content">
-        <img src="assets/images/greathorn.png" alt="Greathorn Games">
+        <a href="/"><img src="assets/images/greathorn.png" alt="Greathorn Games"></a>
     </div>
 </div>
 <div class="masthead">
