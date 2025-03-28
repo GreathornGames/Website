@@ -15,7 +15,7 @@ custom-css: /assets/css/investors.css
             <h1 class="fst-italic lh-1 mb-4">Interested?</h1>
             <h4>We’re flattered!</h4>
             <p class="mb-5"><em role="heading">We aren’t presently raising money.</em> However, we always enjoy meeting accredited investors, whether you’re a venture capital firm, an angel, a family office, or a strategic investor. Please get in touch and let’s see where our vision for the future of multiplayer might fit in your portfolio.</p>             
-            <p class="mb-5"><a class="btn btn-brand m-top-2" href="http://investor-onboarding.greathorn.games" aria-label="Investors Updates Signup">Investors Updates Signup</a></p>             
+           <a class="btn btn-brand investor-button" href="http://investor-onboarding.greathorn.games" aria-label="Investors Updates Signup">Investors Updates Signup</a>             
         </div>
     </div>
 </div>

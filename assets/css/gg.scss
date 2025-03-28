@@ -18,16 +18,8 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #1E92FF;
     --bs-btn-disabled-border-color: #212529;
+    --bs-text-opacity: 1 !important;
     padding: 10px;
-    color: rgba(255,255,255,1);
+    color: rgba(255,255,255,1) !important;
     font-weight: bold;
-}
-
-.m-top-2
-{
-    margin-top: 2em;
-}
-.m-top-3
-{
-    margin-top: 3em;
 }
