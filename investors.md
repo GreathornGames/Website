@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Greathorn Games
+title: Greathorn Games - Investor Onboarding
 custom-css: /assets/css/investors.css
 ---
 <video autoplay loop muted playsinline class="bg-video" poster="assets/videos/lander-background.jpg"><source src="/assets/videos/lander-background.mp4" type="video/mp4"></video>
@@ -28,4 +28,3 @@ custom-css: /assets/css/investors.css
     </div>
 </div>
 <div class="lander-notice" id="footer">&copy; 2025 Greathorn Games Inc. All Rights Reserved.</div>
-
