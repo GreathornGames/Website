@@ -1,0 +1,198 @@
+---
+---
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  position: relative;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0d0d0d;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+video.bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0;
+}
+
+.masthead {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.masthead:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.masthead .masthead-content {
+  position: relative;
+  max-width: 40rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.masthead .masthead-content h1, .masthead .masthead-content .h1 {
+  font-size: 2.5rem;
+}
+.masthead .masthead-content p {
+  font-size: 1.2rem;
+}
+.masthead .masthead-content p strong {
+  font-weight: 700;
+}
+.masthead .masthead-content .input-group-newsletter input {
+  height: auto;
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.masthead .masthead-content .input-group-newsletter button {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: calc(1rem + 2px);
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100%;
+    width: 75vw;
+    min-height: 0;
+    padding-bottom: 0;
+  }
+  .masthead:before {
+    transform: skewX(-9deg);
+    transform-origin: top right;
+  }
+  .masthead .masthead-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2rem;
+    padding-right: 9rem;
+  }
+  .masthead .masthead-content h1, .masthead .masthead-content .h1 {
+    font-size: 6rem;
+  }
+  .masthead .masthead-content p {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .masthead {
+    width: 65vw;
+  }
+}
+
+.branding
+{
+  position: absolute;
+  z-index: 10;
+  top: 5vw;
+  left: 5vw;
+  width: 100%;
+}
+
+.branding img
+{
+  max-width: 20%;
+}
+
+.branding-content
+{
+  align-items: center;
+  vertical-align:middle;
+  text-align: left;
+}
+
+.masthead-content .mb-5
+{
+  opacity: 0.5;
+}
+
+.masthead-content .mb-5 em
+{
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .branding
+  {
+    top: 2vw;
+    left: 2vw;
+  }
+  .masthead-content .mb-5
+  {
+    margin-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .branding
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105vw;
+    left: -5vw;
+  }
+  .branding img
+  {
+    max-width: 45vw;;
+  }
+  .branding-content
+  {
+    margin-left: 10vw;
+    max-width: 40rem;
+    width: 40rem;
+  }
+  .masthead .masthead-content {
+    padding-top: 10rem;
+    padding-bottom: 0rem;
+  }
+}
+
+.lander-notice
+{
+  position: absolute;
+  right: 2vw;
+  bottom: 2vw;
+  z-index: 1;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+@media (min-width: 1800px)
+{
+    .branding img
+    {
+      max-height: 60px !important;      
+    }
+}
