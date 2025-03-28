@@ -20,7 +20,12 @@ custom-css: /assets/css/investors.css
     </div>
 </div>
 <div class="team-bios">
-    
+    <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
+        <a href="https://www.linkedin.com/in/idundore/"><img src="assets/images/team/bio-ian.jpg" /></a>
+        <a href="https://www.linkedin.com/in/karlkent/"><img src="assets/images/team/bio-karl.jpg" /></a>
+        <a href="https://www.linkedin.com/in/matthewdavey/"><img src="assets/images/team/bio-matt.jpg" /></a>
+        <a href="https://www.linkedin.com/in/jeremy-hardy/"><img src="assets/images/team/bio-jeremy.jpg" /></a>
+    </div>
 </div>
 <div class="lander-notice" id="footer">&copy; 2025 Greathorn Games Inc. All Rights Reserved.</div>
 
